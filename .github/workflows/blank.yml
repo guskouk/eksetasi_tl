@@ -1,0 +1,14 @@
+  case 'D':
+                    decimal = processDecimal(500, lastNumber, decimal);
+                    lastNumber = 500;
+                    break;
+
+                case 'C':
+                    decimal = processDecimal(100, lastNumber, decimal);
+                    lastNumber = 100;
+                    break;
+
+                case 'L':
+                    decimal = processDecimal(50, lastNumber, decimal);
+                    lastNumber = 50;
+                    break;
